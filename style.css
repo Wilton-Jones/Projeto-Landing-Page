@@ -1,138 +1,244 @@
 * {
-    margin: 0px;
-    font-family: "inter";
+  margin: 0px;
+  font-family: "inter";
 }
 
 #logo {
-    margin-top: 50px;
-    margin-left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 #titulo-menusuperior {
-    margin-left: 165px;
-    margin-top: 75px;
+  margin-left: 165px;
+  margin-top: 75px;
 }
 
 #texto-menusuperior {
-    margin-left: 165px;
-    margin-top: 40px;
-    padding-bottom: 190px;
+  margin-left: 165px;
+  margin-top: 40px;
+  padding-bottom: 190px;
 }
 
 #menusuperior {
-    color: aliceblue;
-    background-image: url("Imagens/fundo-menusuperior.svg");
+  color: aliceblue;
+  background-image: url("Imagens/fundo-menusuperior.svg");
 }
 
 #menuinformacional {
-    background-color: #EAECE5;
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
+  background-color: #eaece5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
 }
 
 .icone {
-    margin: 50px 0px 50px 140px;
-    padding: 25px;
+  margin: 50px 0px 50px 140px;
+  padding: 25px;
 }
 
 #secaovideo {
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
 }
 
 .textoinformativo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #titulovideo {
-    color: #247BA0;
-    margin-top: 50px;
+  color: #247ba0;
+  margin-top: 50px;
 }
 
 #video {
-    margin: 50px 0px 50px 100px;
+  margin: 50px 0px 50px 100px;
 }
 
 #carrossel {
-    background-color: #247BA0;
-    padding: 50px;
+  background-color: #247ba0;
+  padding: 50px;
 }
 
 #titulocarrossel {
-    text-align: center;
-    color: #EAECE5;
-    font-size: 25px;
+  text-align: center;
+  color: #eaece5;
+  font-size: 25px;
 }
 
 #divcards {
-    margin-top: 50px;
-    display: grid;
-    grid-auto-flow: column;
+  margin-top: 50px;
+  display: grid;
+  grid-auto-flow: column;
 }
 
 .card {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 #setaesquerda {
-    display: none;
-
+  display: none;
 }
 
 #Bruna {
-    display: none;
+  display: none;
 }
 
 .seta {
-    margin-top: 150%;
-    cursor: pointer;
+  margin-top: 150%;
+  cursor: pointer;
 }
 
 .seta:hover {
-    transform: translateY(-7px);
-    transition-duration: 0.5s;
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
 }
 
 #formulario {
-    text-align: center;
+  text-align: center;
 }
 
 #tituloformulario {
-    font-size: 25px;
-    margin: 25px;
-    color: #383838;
+  font-size: 25px;
+  margin: 25px;
+  color: #383838;
 }
 
 input {
-    Width: 325px;
-    Height: 40px;
-    background-color: #EAECE5;
-    margin: 15px;
-    border: 0px;
-    border-radius: 5px;
-    padding-left: 10px;
+  width: 325px;
+  height: 40px;
+  background-color: #eaece5;
+  margin: 15px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 10px;
 }
 
 button {
-    width: 270px;
-    height: 40px;
-    background-color: #247BA0;
-    color: #FFFFFF;
-    border: 0px;
-    border-radius: 5px;
-    margin-bottom: 50px;
-    margin-top: 15px;
-    font-weight: bolder;
-    cursor: pointer;
+  width: 270px;
+  height: 40px;
+  background-color: #247ba0;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  font-weight: bolder;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: rgb(51, 133, 173);
-    color: white;
-    transform: translateY(-7px);
-    box-shadow: 0px 15px 20px #0522358e;
-    transition-duration: 0.5s;
+  background-color: rgb(51, 133, 173);
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #0522358e;
+  transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  #logo {
+    margin-top: 3.75vh;
+    margin-left: 7vw;
+  }
+  #titulo-menusuperior {
+    margin-left: 8vw;
+    margin-top: 5vh;
+    margin-right: 8vw;
+  }
+  #menusuperior h1 {
+    font-size: 1.5rem;
+  }
+  #menusuperior br {
+    display: none;
+  }
+  #texto-menusuperior {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 5vh;
+    padding-bottom: 7vh;
+  }
+  #menuinformacional {
+    background-color: #eaece5;
+    display: flex;
+    flex-direction: column;
+  }
+  .icone {
+    margin: 5vw 7vw 5vw 15vw;
+    padding: 0vw 0vw 0vw 2vw;
+  }
+  #secaovideo {
+    display: flex;
+    flex-direction: column;
+  }
+  #video {
+    width: 87vw;
+    height: 40vh;
+    margin: 5vw 7vw 0vw 7vw;
+  }
+  #titulovideo {
+    margin: 5vw 7vw 0vw 7vw;
+    font-size: 1.5rem;
+  }
+  #titulovideo br {
+    display: none;
+  }
+  #textovideo {
+    margin: 1vw 7vw 0vw 7vw;
+  }
+  #textovideo br {
+    display: none;
+  }
+  #textovideo2 {
+    margin: 1vw 7vw 5vw 7vw;
+  }
+  #textovideo2 br {
+    display: none;
+  }
+  #titulocarrossel {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  #carrossel {
+    padding: 5vw;
+  }
+  .card {
+    width: 42vw;
+    margin-left: 1vw;
+  }
+  #divcards {
+    margin-top: 5vw;
+  }
+  .seta {
+    margin-top: 2vh;
+    cursor: pointer;
+    width: 3vw;
+    margin-left: 1vw;
+  }
+  #tituloformulario {
+    font-size: 1.3rem;
+    margin: 5vw;
+  }
+  input {
+    width: 20rem;
+    height: 2rem;
+    background-color: #eaece5;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 2vw;
+  }
+  button {
+    width: 16.9rem;
+    height: 2rem;
+    background-color: #247ba0;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+  }
 }
